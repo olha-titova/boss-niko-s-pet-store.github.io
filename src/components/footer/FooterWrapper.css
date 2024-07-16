@@ -1,0 +1,59 @@
+.FooterWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Info {
+    display: flex;
+    padding-right: 23%;
+}
+
+.FooterTitle {
+    font-size: 1.5rem;
+    margin: 0 0 5.5rem;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.InfoText {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #454545; 
+}
+
+ .InfoText:first-child {
+    color:#000000;
+    }
+
+.InfoTitle {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 2rem 0 0;
+}
+
+.InfoTextItem {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .Info {
+        padding-right: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .Info {
+        padding-right: 0;
+    }
+
+    .InfoTitle {
+        margin: 0 1rem 0 0;
+    }
+  }
